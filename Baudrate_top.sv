@@ -1,7 +1,9 @@
 `timescale 1ns / 1ps
 
-localparam N1 = 5209;
-localparam N2 = 326;
+//localparam N1 = 5209;
+//localparam N2 = 326;
+localparam N1 = 50000000;
+localparam N2 = 3125000;
 
 localparam n1 = $clog2(N1);
 localparam n2 = $clog2(N2);

@@ -54,15 +54,15 @@ module Reciever(
             rx_out <=0;
             end  
           else if (store) begin 
-            rx_out[0] <= sampled_data;
-            rx_out[1] <= rx_out[0];
-            rx_out[2] <= rx_out[1];
-            rx_out[3] <= rx_out[2];
-            rx_out[4] <= rx_out[3];
-            rx_out[5] <= rx_out[4];
-            rx_out[6] <= rx_out[5];
-            rx_out[7] <= rx_out[6];
-            rx_out[8] <= rx_out[7];
+            rx_out[8] <= sampled_data;
+            rx_out[7] <= rx_out[8];
+            rx_out[6] <= rx_out[7];
+            rx_out[5] <= rx_out[6];
+            rx_out[4] <= rx_out[5];
+            rx_out[3] <= rx_out[4];
+            rx_out[2] <= rx_out[3];
+            rx_out[1] <= rx_out[2];
+            rx_out[0] <= rx_out[1];
 //            stop  = 1;
           end 
           end
